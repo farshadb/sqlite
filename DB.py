@@ -1,6 +1,5 @@
 import sqlite3
 
-
 """
 Create a new sqlite database 
 """
@@ -55,8 +54,9 @@ def read_data():
     print("==================")
     print(x)
 
+
 """
-We MUST use build in modules after inserting and updating in order to
+We MUST use build in module after inserting and updating and deleting in order to
 import them into database
 """
 
