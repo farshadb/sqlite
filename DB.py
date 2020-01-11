@@ -19,7 +19,7 @@ print("Cursor created")
 """
 
 
-cursor.execute(""" CREATE TABLE IF NOT EXISTS employee_records(
+cursor.execute(""" CREATE TABLE IF NOT EXISTS employee_record-m-s(
     ID INT PRIMARY KEY NOT NULL,
     NAME TEXT NOT NULL,
     DIVISION TEXT NOT NULL,
